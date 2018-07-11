@@ -1,0 +1,50 @@
+/*样式重置*/
+body,ul,li,dl,dd,dt,p,h1,h2,h3,image,input,a,span,form,table,tr,td{padding: 0px;margin: 0px;}
+a{text-decoration: none;}
+li{list-style: none;}
+textarea,image,input{outline: none;}
+image{border:none;vertical-align: middle;}
+table{border-collapse: collapse;}
+textarea{resize: none;overflow: auto;}
+body{font: 12px 微软雅黑}
+/* public*/
+.fl{float: left}
+.fr{float: right}
+.clearfix:after{
+content: "";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{zoom:1}
+.gradient{
+    background: -moz-linear-gradient(top,#ffffff,#f8f8f8);
+    background: -ms-linear-gradient(top,#ffffff,#f8f8f8);
+    background: -webkit-linear-gradient(top,#ffffff,#f8f8f8);
+    background: linear-gradient(top,#ffffff,#f8f8f8);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#f8f8f8)";
+
+}
+/*layout*/
+body{margin-bottom: 30px;}
+#header{height: 30px;width: 960px;margin: 0 auto;border-radius: 6px;}
+#nav{height: 100px;width: 960px;margin: 0 auto;}
+#search{width: 958px;height:114px ;margin:0 auto 10px;border-radius:6px; border: 1px solid #dbdbdb;}
+#search .bar{}
+.content{width: 960px;margin: 0 auto;}
+.main{width: 710px;}
+.section{height:200px;width:318px;padding:0 15px;border-radius:6px;border: 1px solid #dbdbdb;margin-bottom: 10px;}
+.options{width: 350px;height: 200px;margin-bottom: 10px;}
+.main_ad{margin-bottom: 10px;border-radius:6px;overflow: hidden;width: 710px;height: 90px;}
+.side{width: 240px;}
+.side_section{border-radius: 6px;border: 1px solid #dbdbdb;height: 60px;margin-bottom: 10px;padding:0 12px;}
+.side_ad{border-radius: 6px;overflow: hidden;margin-bottom: 10px;border: 1px solid #dbdbdb;}
+.side_ad a{display: block}
+.side_ad a img{display: block}
+#footer{width: 958px;height:78px;border-radius: 6px;border: 1px solid #dbdbdb;margin: 0 auto;}
+
+.options .nav{height: 34px;}
+.options .nav li{width: 172px;height: 33px;border: 1px solid #dbdbdb;border-bottom:none; border-radius: 6px 6px 0 0;}
+.options .nav .active{width: 172px;height: 34px;background: #fff;}
+.options .con{width: 348px;height:80px;border:1px solid #dbdbdb;border-radius: 0 0 6px 6px; }
